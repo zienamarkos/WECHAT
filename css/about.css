@@ -5,6 +5,10 @@
     margin: 5px;
     padding: 5px;
     
+    
+}
+.container video{
+    width: 400px;
 }
 .container-1{
     display: flex;

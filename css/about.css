@@ -1,0 +1,38 @@
+ *{ 
+    box-sizing: border-box;
+}
+.container{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+}
+h2{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    margin: 20px;
+    
+}
+.container-1 .col{
+    width: 200px;
+    align-content: center; 
+    transition: 0.2s;    
+
+}
+
+.container-1 .col:hover{
+    transform:scale(1.2)
+
+}
+.container-1 img{
+    border-radius: 50%;
+}

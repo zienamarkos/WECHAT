@@ -8,7 +8,7 @@
     
 }
 .container video{
-    width: 400px;
+    max-width: 500px;
 }
 .container-1{
     display: flex;

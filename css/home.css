@@ -52,6 +52,7 @@ li a{
 }
 .navbar-links li:hover{
     background-color: rgb(19, 77, 57);
+    
 }
 
 
@@ -89,6 +90,14 @@ li a{
     border: 2px solid black;
     border-radius: 10px;
 }
+
+ul li a.active{
+    background: red;
+    color: rgb(131, 11, 243);
+    border-radius: 5px;
+
+}
+
 
 @media (max-width:700px) {
 
@@ -130,6 +139,8 @@ li a{
     }
     
 }
+
+
 
 
 

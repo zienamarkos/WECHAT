@@ -54,10 +54,31 @@ li a{
     background-color: rgb(19, 77, 57);
 }
 
+
 .login{
+    display: flex;
+    justify-content: center;
+    align-self: center;    
+    max-width: 800px;
+    border: 2px solid royalblue;
     border-radius: 15px;
-    padding: 10%;
-    margin: 10px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: gray;       
+}
+
+.login h3{
+    color: rgb(0, 255, 64);
+    text-shadow: 2px 4px 5px rgb(255, 0, 0);
+    text-transform: uppercase;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+.login a:hover{
+    background-color: blue;
+    border-radius: 5px;
+    align-items: center;
+    text-decoration: none;
 }
 .float-right{
     float: right;

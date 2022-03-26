@@ -6,57 +6,8 @@ body{
     padding: 0;
     background-color: grey;
 }
-.navbar{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    
-    
-} 
-.logo {
-    margin: 1.5rem;
-    padding: 0,5rem;   
-   
-} 
-.logo img{
-    background-color: rgb(153, 212, 212);
-}
 
-.navbar-links ul{
-    display: flex;
-    color: white;
-}
-.navbar-links li{
-    list-style: none;
-    justify-content: space-between;
-    margin-right: 1.5rem;
-
-}
-li a{
-    display: flex;
-    text-decoration: none;
-    color: white;
-    margin: 0.5rem;
-    right: 5px;
-    justify-content: space-between;
-    text-transform: uppercase;
-}
-.toggleButton img{
-    position: absolute;
-    width: 30px;
-    height: 20px;
-    right: 2rem;
-    top: 1.5rem;
-    display: none;
-}
-.navbar-links li:hover{
-    background-color: rgb(19, 77, 57);
-    
-}
-
-
-.login{
+.log_in{
     display: flex;
     justify-content: center;
     align-self: center;    
@@ -64,20 +15,22 @@ li a{
     border: 2px solid royalblue;
     border-radius: 15px;
     margin: auto;
-    margin-top: 50px;
+    
     margin-bottom: 50px;
     padding: 15px;
-    background-color: gray;       
+    background-color: gray;
+    margin-top: 200px;
+      
 }
 
-.login h3{
+.log_in h3{
     color: rgb(0, 255, 64);
     text-shadow: 2px 4px 5px rgb(255, 0, 0);
     text-transform: uppercase;
     font-style: oblique;
     font-family: sans-serif;
 }
-.login a:hover{
+.log_in a:hover{
     background-color: blue;
     border-radius: 5px;
     align-items: center;

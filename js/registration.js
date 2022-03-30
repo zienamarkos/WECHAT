@@ -4,30 +4,10 @@ form.addEventListener('submit', e => {
     var passwordValue = password.value;
     var rePasswordValue = rePassword.value;
     if (passwordValue != rePasswordValue) {
-        alert('Password missmatch.\nPlease try again.')
+        const myh5 = document.querySelector('h5');
+        myh5.className = 'error'
         e.preventDefault();
     } else {
 
     }
 });
-
-
-var myElem = document.getElementById('menu-id');
-
-myElem.onclick = function() {
-    toggleMenu();
-}
-
-
-function toggleMenu() {
-    var myMenu = document.getElementById('menu-nav-id');
-    var displaySetting = myMenu.style.display;
-    var menuButton = document.getElementById('menu-id');
-    if (displaySetting == 'block') {
-        myMenu.style.display = 'none';
-
-    } else {
-        myMenu.style.display = 'block';
-
-    }
-}

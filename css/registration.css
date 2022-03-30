@@ -1,0 +1,99 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    background-color: lavender;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    box-shadow: rgba(11, 34, 245, 0.25) 10px 10px 30px, rgba(11, 34, 245, 0.25) 10px 10px 30px, rgba(11, 34, 245, 0.25) 10px 10px 30px, rgba(11, 34, 245, 0.25) 10px 10px 30px;
+}
+
+h2 {
+    max-width: 600px;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 120px;
+    color: black;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px, rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.register-nav li {
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 25px;
+    list-style: none;
+    font-weight: bold;
+    max-width: 500px;
+    margin: auto;
+}
+
+.register-nav button {
+    width: 100px;
+    height: 30px;
+    border-color: white;
+    border-radius: 5px;
+    background-color: lavender;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px, rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.register-nav button:hover {
+    background-color: white;
+    color: black;
+    width: 105px;
+    height: 35px;
+}
+
+.register-nav label {
+    color: black;
+    font-weight: bold;
+}
+
+.register-nav input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    height: 25px;
+    border-color: black;
+    display: inline-block;
+    background-color: lightblue;
+}
+
+.register-nav input:hover {
+    background-color: white;
+}
+
+.register-nav small {
+    color: red;
+    border: inset;
+    border-color: red;
+    visibility: hidden;
+}
+
+h5 {
+    margin-left: 25px;
+    color: red;
+    max-width: 400px;
+    display: none;
+}
+
+.error {
+    display: block;
+}
+
+footer {
+    background-color: lavender;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
